@@ -1,0 +1,11 @@
+const smart = "/images/smart-controls.png";
+const network = "/images/network-security.png";
+const cyber = "/images/cyber-hardware.png";
+const web = "/images/digital-studio.png";
+
+export const services = [
+  { id: "smart", image: smart, title: ["Smart systems", "الأنظمة الذكية"], short: ["Smart living", "حياة ذكية"], description: ["Comfort, control, and intelligence. Designed around the way you live and work.", "راحة وتحكم وذكاء. أنظمة مصممة لتناسب أسلوب حياتك وعملك."], details: [["Homes & villas", "المنازل والفلل"], ["Offices & factories", "المكاتب والمصانع"], ["Schools & hospitals", "المدارس والمستشفيات"], ["Lighting & curtains", "الإضاءة والستائر"], ["Climate & access", "التكييف والتحكم بالدخول"]] },
+  { id: "network", image: network, title: ["Networks & security", "الشبكات وأنظمة الأمان"], short: ["Connected & protected", "اتصال وحماية"], description: ["A dependable network. A clearer view. Protection that works around the clock.", "شبكة موثوقة ورؤية أوضح وحماية تعمل على مدار الساعة."], details: [["Network installation", "تركيب الشبكات"], ["CCTV & surveillance", "كاميرات المراقبة"], ["Intrusion alarms", "إنذار الاقتحام"], ["Fire alarm systems", "أنظمة إنذار الحريق"], ["Structured cabling & Wi-Fi", "الكابلات الهيكلية والواي فاي"]] },
+  { id: "cyber", image: cyber, title: ["Cybersecurity", "الأمن السيبراني"], short: ["Digital confidence", "ثقة رقمية"], description: ["Secure your infrastructure. Understand the threats. Protect what matters.", "تأمين بنيتك التحتية وفهم التهديدات وحماية ما يهمك."], details: [["Network security", "أمن الشبكات"], ["Security assessments", "تقييم الأمان"], ["System hardening", "تحصين الأنظمة"], ["Digital forensics", "التحقيق الجنائي الرقمي"]] },
+  { id: "web", image: web, title: ["Websites & digital solutions", "المواقع والحلول الرقمية"], short: ["A stronger presence", "حضور أقوى"], description: ["Thoughtful websites and digital experiences. Built to move your business forward.", "مواقع وتجارب رقمية مدروسة تساهم في تطوير أعمالك."], details: [["Website design", "تصميم المواقع"], ["Business websites", "مواقع الأعمال"], ["Digital solutions", "الحلول الرقمية"], ["Website support", "دعم المواقع"]] },
+] as const;
